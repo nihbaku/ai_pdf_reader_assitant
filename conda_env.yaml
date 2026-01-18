@@ -1,0 +1,12 @@
+name: ai_assistant
+dependencies:
+    - python=3.*
+    - pip
+    - pip:
+      - litestar
+      - sentence-transformers
+      - faiss-cpu
+      - pypdf
+      - jax[cuda13]
+      - gemma
+      - numpy
