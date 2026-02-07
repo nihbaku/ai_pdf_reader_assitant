@@ -15,7 +15,16 @@ Local Server can be reached at `http://127.0.0.1:8000`.
 
 Paths given for the upload can be relative.
 
-**Important:** This repo does not contain the model! I used the gguf of `Phi-3-mini-4k-instruct-q4`. This is a very small model with a low context length, does not work on documents longer than approximately 4-6 pages. If you want to use this app you should get either the same or a compatible model. This is put into the `model/` at the same level as the source dir is at the same level as the source directory is.
+**Important:** This repo does not contain the model! I used the gguf of `Phi-3-mini-4k-instruct-q4`. This is a very small model with a low context length, does not work on documents longer than approximately 4-6 pages. If you want to use this app you should get either the same or a compatible model. This is put into the `model/` directory at the same level as the source directory is.
+
+At the End the directory structure looks like this:
+
+```
+├── ai-assistant
+    ├── data    # Has a sample CV for testing inside
+    ├── model   # Create this and put the model here
+    ├── source  # Here the code resides
+```
 
 ### TODO:
 
